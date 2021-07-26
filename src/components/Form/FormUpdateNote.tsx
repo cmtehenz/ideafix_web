@@ -5,16 +5,21 @@ import { useMutation, useQueryClient } from 'react-query';
 import { api } from '../../services/api';
 import { TextInput } from '../Input/TextInput';
 
-interface FormAddImageProps {
-  closeModal: () => void;
-}
-
-interface NewNoteData {
+interface Note {
+  id: string;
   title: string;
   description: string;
 }
 
-export function FormAddNote({ closeModal }: FormAddImageProps): JSX.Element {
+interface FormUpdateNoteProps {
+  closeModal: () => void;
+  note: Note;
+}
+
+export function FormUpdateNote({
+  closeModal,
+  note,
+}: FormUpdateNoteProps): JSX.Element {
   const toast = useToast();
 
   const formValidations = {
@@ -40,9 +45,9 @@ export function FormAddNote({ closeModal }: FormAddImageProps): JSX.Element {
 
   const queryClient = useQueryClient();
   const mutation = useMutation(
-    async (note: NewNoteData) => {
-      await api.post('/notes', {
-        ...note,
+    async (noteData: Note) => {
+      await api.put(`/notes/${note.id}`, {
+        ...noteData,
       });
     },
     {
@@ -55,7 +60,7 @@ export function FormAddNote({ closeModal }: FormAddImageProps): JSX.Element {
   const { register, handleSubmit, reset, formState } = useForm();
   const { errors } = formState;
 
-  const onSubmit = async (data: NewNoteData): Promise<void> => {
+  const onSubmit = async (data: Note): Promise<void> => {
     try {
       await mutation.mutateAsync(data);
       toast({
