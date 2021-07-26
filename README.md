@@ -2,12 +2,12 @@
 > Aplicação para criação e visualização de 'notas'.
 
 ## Funcionalidades
- 1 - Dois campos por nota: Titulo e descrição.
- 2 - Criação dinâmica das notas, sem limtes.
- 3 - Possibilidade de exclusão das notas.
- 4 - Resposivel.
- 5 - As notas são salvas em um banco de dados e recuperadas, através do backend https://github.com/cmtehenz/ideafix_backend
- 6 -
+  - Dois campos por nota: Titulo e descrição.
+  - Criação dinâmica das notas, sem limtes.
+  - Possibilidade de exclusão das notas.
+  - Resposivel.
+  - As notas são salvas em um banco de dados e recuperadas, através do backend https://github.com/cmtehenz/ideafix_backend
+
 
 
 ![caption](/assets/logo.gif)
