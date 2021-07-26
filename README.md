@@ -33,14 +33,15 @@ _Para mais exemplos, consulte a [Wiki][wiki]._
 
 ## Bibliotecas ultilizadas
 
+* [@chakra-ui](https://chakra-ui.com/)
 
 ## Meta
 
-Gustavo Costa – [@SeuNome](https://twitter.com/cmtehenz) – cmtehenz@gmail.com
+Gustavo Costa – [@Gustavo](https://twitter.com/cmtehenz) – cmtehenz@gmail.com
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
-[https://github.com/yourname/github-link](https://github.com/cmtehenz/)
+[https://github.com/cmtehenz/github-link](https://github.com/cmtehenz/)
 
 ## Contributing
 
