@@ -5,9 +5,8 @@
   - Dois campos por nota: Titulo e descrição.
   - Criação dinâmica das notas, sem limtes.
   - Possibilidade de exclusão das notas.
-  - Resposivel.
+  - Responsivo.
   - As notas são salvas em um banco de dados e recuperadas, através do backend https://github.com/cmtehenz/ideafix_backend
-
 
 
 ![caption](/assets/logo.gif)
@@ -15,25 +14,17 @@
 ## Instalação
 
 Após clonar o repositório
-1 - instalar os pacotes
+  - instalar os pacotes
 ```sh
 yarn
 ```
-2 - conforme o arquivo ormconfig.json, modificar conforme seus dados do banco de dados necessário postgress instalado.
+  - necessário iniciar o backend https://github.com/cmtehenz/ideafix_backend
 
-3 - migrar os banco de dados.
-
-```sh
-yarn typeorm migration:run
-```
-
-4 - iniciar o server.
+  - iniciar o server.
 
 ```sh
 yarn dev
 ```
-
-O servidor irá iniciar na porta 3333.
 
 ## Exemplo de uso
 
