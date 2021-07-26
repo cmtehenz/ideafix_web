@@ -16,7 +16,7 @@ export function Header(): JSX.Element {
           px={20}
           py={6}
         >
-          <Image src="logo.svg" h={10} />
+          <Image src="logo.png" h={10} />
           <Button onClick={() => onOpen()}>Adicionar nota</Button>
         </Flex>
       </Box>
