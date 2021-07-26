@@ -10,7 +10,7 @@
  6 -
 
 
-![caption](../assets/logo.gif)
+![caption](/assets/logo.gif)
 
 ## Instalação
 
