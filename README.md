@@ -33,7 +33,13 @@ _Para mais exemplos, consulte a [Wiki][wiki]._
 
 ## Bibliotecas ultilizadas
 
-* [@chakra-ui](https://chakra-ui.com/){:target="_blank" rel="noopener"}
+* [@chakra-ui](https://chakra-ui.com/)
+* [@emotion/react](https://emotion.sh/docs/introduction)
+* [axios](https://github.com/axios/axios)
+* [next](https://nextjs.org/)
+* [typescript](https://www.typescriptlang.org/)
+* [eslint](https://eslint.org/)
+* [prettier](https://prettier.io/)
 
 ## Meta
 
