@@ -45,7 +45,7 @@ _Para mais exemplos, consulte a [Wiki][wiki]._
 
 Gustavo Costa – [@Gustavo](https://twitter.com/cmtehenz) – cmtehenz@gmail.com
 
-Distribuído sob a licença MIT. Veja `LICENSE`(/LICENSE) para mais informações.
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 [https://github.com/cmtehenz/github-link](https://github.com/cmtehenz/)
 
