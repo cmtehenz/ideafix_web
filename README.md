@@ -33,7 +33,7 @@ _Para mais exemplos, consulte a [Wiki][wiki]._
 
 ## Bibliotecas ultilizadas
 
-* [@chakra-ui](https://chakra-ui.com/)
+* [@chakra-ui](https://chakra-ui.com/){:target="_blank" rel="noopener"}
 
 ## Meta
 
